@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/logs/logs",
+    "pages/my/grzx",
+    "pages/select/cx"
+  ],
+  "window": {
+    "selectedColor": "#f40",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "智惠农",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar":{
+  "backgroundColor":"#fff",
+  "list":[{
+    "pagePath":"pages/index/index",
+    "text":"首页"
+  },
+  {
+    "pagePath": "pages/select/cx",
+    "text": "查询服务"
+    },
+  {
+    "pagePath": "pages/my/grzx",
+    "text": "个人中心"
+    }
+  ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
